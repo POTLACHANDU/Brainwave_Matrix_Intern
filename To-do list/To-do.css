@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #fff);
+    padding: 10px;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  .input-container {
+    width: 80%; /* Set the width of the container element */
+    margin: 20px auto; /* Add some margin to center the container */
+  }
+  
+  #task-input {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 70%; /* Reduce the width of the input field to make room for the button */
+    margin-right: 10px;
+  }
+  
+  #task-input:focus {
+    border-color: #3ec7d6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #add-task {
+    background-color: #3ec7d6;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 20%; /* Set the width of the button to take up the remaining space */
+  }
+  
+  #add-task:hover {
+    background-color: #2ea8c5;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #task-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #task-list li.completed {
+    text-decoration: line-through;
+    color: #666;
+  }
+  
+  .task-text {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .createdAt {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+  }
+  
+  .done-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .done-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .delete-button {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #CC0000;
+  }
